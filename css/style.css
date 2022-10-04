@@ -6,13 +6,19 @@
 }
 
 html {
-    /* min-width: 1000px; */
+    background-color: #393939;
+}
+
+body {
+    max-width: 3600px;
+    margin: auto;
+    background-color: white;
 }
 
 .head-conteiner {
     background-image: url(../img/jumbo.png);
     background-color: #255ee9;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
@@ -89,7 +95,6 @@ html {
 
 .white:hover {
     color: #5865f2;
-
 }
 
 .blue-discord {
